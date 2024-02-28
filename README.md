@@ -5,6 +5,7 @@ fi adăgate cerințe adiționale si vor fi extinse cele existente.
 Funcționalități de bază (cerințe funcționale):
 - Gestiunea utilizatorilor: operații CRUD (date citite din baza de date):
       - Add/Update/Remove Utilizator
+  ![image](https://github.com/BiaBiuta/Social-Network/assets/149913268/c14d2a9e-b8f6-4d86-ad8b-a90717d974f6)
 - Gestiunea relațiilor de prietenie între utlizatori: adăgare/ștergere prieten,acceptare/rejectare cerere de prietenie
   ![image](https://github.com/BiaBiuta/Social-Network/assets/149913268/74cc957a-547d-4391-9779-4ccb5b96d4f1)
 ![image](https://github.com/BiaBiuta/Social-Network/assets/149913268/f05db9f6-c2ac-4a37-9cf2-6f7ce2a46887)
