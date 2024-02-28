@@ -19,6 +19,7 @@ abonare/dezabonare la un eveniment;
 - Autentificare: logare/delogare
   ![image](https://github.com/BiaBiuta/Social-Network/assets/149913268/5552d6ec-47c4-4d60-9c99-e212e3b19abb)
   ![image](https://github.com/BiaBiuta/Social-Network/assets/149913268/b4117169-ccbc-4978-85ba-3fbc719c333e)
+- Implementare Observer
 - Arhitectură Stratificată 
 - DDD (Domain Driven Design) 
 - Validarea datelor - (Strategy Pattern) 
