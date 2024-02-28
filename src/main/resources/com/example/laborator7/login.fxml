@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.laborator7.LoginController">
+   <children>
+      <BorderPane prefHeight="400.0" prefWidth="600.0">
+         <left>
+            <AnchorPane prefHeight="407.0" prefWidth="228.0" style="-fx-background-color: #9370db;" BorderPane.alignment="CENTER">
+               <children>
+                  <Label layoutX="1.0" layoutY="133.0" prefHeight="30.0" prefWidth="178.0" text="Conversation" textFill="#efebeb">
+                     <font>
+                        <Font name="Verdana Bold" size="24.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="-28.0" layoutY="185.0" prefHeight="30.0" prefWidth="208.0" text="CHAT" textFill="#efebeb">
+                     <font>
+                        <Font name="Verdana Bold" size="24.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </left>
+         <right>
+            <AnchorPane prefHeight="401.0" prefWidth="378.0" style="-fx-background-color: #dfc9f1;" BorderPane.alignment="CENTER">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="51.0" layoutY="64.0" prefHeight="27.0" prefWidth="370.0" text="Secure Login ">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="81.0" layoutY="136.0" prefHeight="18.0" prefWidth="64.0" text="Username" />
+                  <Label layoutX="80.0" layoutY="191.0" prefHeight="18.0" prefWidth="65.0" text="Password" />
+                  <TextField fx:id="textFieldUsername" layoutX="165.0" layoutY="115.0" prefHeight="42.0" prefWidth="219.0" />
+                  <PasswordField fx:id="textFieldPassword" layoutX="166.0" layoutY="187.0" prefHeight="26.0" prefWidth="217.0" />
+                  <Button layoutX="102.0" layoutY="231.0" mnemonicParsing="false" onAction="#handleLogin" prefHeight="30.0" prefWidth="282.0" text="Login" />
+                  <Button layoutX="102.0" layoutY="301.0" mnemonicParsing="false" onAction="#handleRegister" prefHeight="30.0" prefWidth="282.0" text="Sign in " />
+                  <Label layoutX="98.0" layoutY="272.0" prefHeight="18.0" prefWidth="290.0" text="if you you don't have an account please sign in">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Button layoutX="100.0" layoutY="346.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="284.0" text="Cancel" />
+               </children>
+            </AnchorPane>
+         </right>
+      </BorderPane>
+   </children>
+</AnchorPane>

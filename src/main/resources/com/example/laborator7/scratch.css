@@ -1,0 +1,14 @@
+.button {
+    -fx-background-color: #4CAF50; /* culoarea de fundal a butonului */
+    -fx-background-radius: 50%; /* pentru a face butonul rotund */
+    -fx-min-width: 60px; /* setează lățimea minimă */
+    -fx-min-height: 60px; /* setează înălțimea minimă */
+    -fx-max-width: 60px; /* setează lățimea maximă */
+    -fx-max-height: 60px; /* setează înălțimea maximă */
+    -fx-padding: 5px; /* adaugă un spațiu între conținutul butonului și marginea exterioară */
+    -fx-text-fill: white; /* culoarea textului */
+}
+
+.button:hover {
+    -fx-background-color: #45a049; /* culoare de fundal la hover */
+}
