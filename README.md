@@ -12,8 +12,7 @@ Funcționalități de bază (cerințe funcționale):
 ![image](https://github.com/BiaBiuta/Social-Network/assets/149913268/ed414094-d9a2-4499-8ca6-484512dd865d)
 
 - Gestiunea mesajelor: trimitere/stergere mesaj
-- ![image](https://github.com/BiaBiuta/Social-Network/assets/149913268/885a37b6-54d3-4851-aca6-c52ff10d973e)
-
+![image](https://github.com/BiaBiuta/Social-Network/assets/149913268/6868de7f-f76f-4a14-b55f-5140f4031df7)
 - Adaugarea unui obiect de tipul Page :repository paginat pentru fiecare entitate ,iar la mesaje aducerea paginilor la miscarea scroll-ului
 - Gestiunea evenimentelor: se va implementa șablonul Observer pentru notificări, 
 abonare/dezabonare la un eveniment; 
